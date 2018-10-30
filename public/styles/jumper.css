@@ -1,0 +1,115 @@
+
+
+.delete {
+  color : white;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 23px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.button1 {
+  color : white;
+}
+
+.button2 {
+  color : white;
+}
+
+.jumperhome {
+  color : white;
+  text-align: center;
+  
+}
+
+.jumpertitle {
+  font-size: 30px;
+}
+
+.jumperform {
+    color: white;
+    text-align: center;
+}
+
+.jumperhomebox1 {
+font-size: 23px;
+padding: 50px;
+
+}
+
+.jumperhomebox2 {
+font-size: 23px;
+  padding: 50px;
+}
+
+.allpngs {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 50px;
+  padding-left: 120px;
+
+}
+
+.jumper1.1 {
+  color: white;
+  flex: 1;
+  padding: 30px;
+  text-align: center;
+}
+
+.jumper1.2 {
+  color: white;
+  flex: 1;
+  padding: 30px;
+  text-align: center;
+}
+
+.allpngs2 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+
+  padding: 50px;
+  flex-direction: row;
+  padding-left: 120px;
+
+}
+
+.jumper1.3 {
+  color: white;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  padding: 10px;
+
+}
+
+.jumper1.4 {
+  color: white;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.jumperis {
+  text-align: center;
+  font-size: 23px;
+}
+
+.builtfor {
+  text-align: center;
+  font-size: 23px;
+}
+
+.supportfor {
+  text-align: center;
+  font-size: 23px;
+}
+
+.thisgame {
+  text-align: center;
+  font-size: 23px;
+}

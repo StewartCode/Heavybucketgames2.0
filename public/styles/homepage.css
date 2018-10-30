@@ -1,0 +1,103 @@
+.allbuttons {
+  font-family: arial;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+
+}
+
+.homebutton {
+  color: white;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+
+
+}
+
+.gamesbutton {
+  color: white;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.statusbuttonjumper {
+  color: white;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+
+
+}
+.statusbuttontimefist {
+        color: white;
+        flex: 1;
+        padding: 10px;
+        text-align: center;
+
+}
+
+
+body {
+  background-color: black;
+  background-image: url("/images/1.4.png");
+}
+
+a:link {
+  color : grey;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+
+}
+a:visited {
+  color : white;
+}
+a:hover {
+  color : grey;
+}
+a:active {
+  color : grey;
+}
+
+.homeimage {
+  margin: 0 auto;
+  margin-left: -100px;
+  margin-top: 0px;
+  text-align: center;
+
+}
+.welcome {
+  font-family: arial;
+  color : white;
+  margin: 0 auto;
+  border: solid 0px black;
+  margin-top: -40px;
+  text-align-last: center;
+}
+
+.homerant {
+  font-family: arial;
+  color : white;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 23px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+
+/* width: value;
+height: value;
+margin-top: value;
+margin-right: value;
+margin-bottom: value;
+margin-left: value;
+padding-top: value;
+padding-right: value;
+padding-bottom: value;
+padding-left: value; */

@@ -1,0 +1,52 @@
+
+.timefist_index {
+  color: white;
+  margin-left: auto;
+  margin-left: 0px;
+  margin-top: 140px;
+  text-align: center;
+  font-size: 40px;
+
+
+}
+.jumper_index {
+      color: white;
+      margin-left: auto;
+      margin-left: 0px;
+      margin-top: 140px;
+      text-align: center;
+      font-size: 40px;
+}
+
+.view {
+  margin-left: auto;
+  margin-left: 17px;
+  margin-top: 140px;
+}
+
+.shortlist {
+  font-family: arial;
+  color : white;
+  text-align: center;
+}
+
+.gamesindex {
+  font-family: arial;
+  color : white;
+  text-align: center;
+}
+
+.thanks {
+  font-family: arial;
+  color : white;
+  text-align: center;
+}
+
+.statusback {
+     font-size: 12px;
+     padding: 20px;
+}
+
+.viewacceptedtesters {
+  text-align: center;
+}

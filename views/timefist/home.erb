@@ -1,0 +1,93 @@
+<body>
+
+
+
+<div class="timefisthome">
+
+
+
+<h1>Timefist</h1>
+
+<div class="allpngs">
+
+<div class="jumper1.1">
+<img src="/images/timefist1.1.png" width="600px" height="400px" alt="">
+</div>
+
+<div class="jumper1.1">
+<img src="/images/timefist1.2.png" width="600px" height="400px" alt="">
+</div>
+
+</div>
+
+<div class="jumperis">
+<p>Time Fist is set in Glasgow. A brave explorer breaches the space time continuum
+   to rescue humanity from its own extinction.
+  </p>
+</div>
+
+<div class="jumper1.3">
+<img src="/images/timefist1.3.png" width="600px" height="400px" alt="">
+</div>
+
+<div class="builtfor">
+<p>The game will have you laughing out loud as Terry puzzles his way through Dans
+  flat.</p>
+</div>
+
+<div class="allpngs2">
+
+<div class="jumper1.4">
+<img src="/images/timefist1.4.png" width="600px" height="400px" alt="">
+</div>
+
+<div class="jumper1.5">
+<img src="/images/timefist1.5.png" width="600px" height="400px" alt="">
+</div>
+
+</div>
+
+<div class="supportfor">
+<p>With a planned release on Steam next year, request a beta key below.</p>
+</div>
+
+
+<div class="thisgame">
+<p>This game is due for release next year</p>
+</div>
+
+
+<div class="timefisthomebox1">
+
+<% for space in @spaces %>
+    <% if space.timefist_spaces == "0" %>
+      <p>sorry no spaces left</p>
+    <% else %>
+    <a href=/heavybucketgames/games/timefist/form>Apply for beta testing</a>
+    <% end %>
+    <% break %>
+<% end %>
+
+</div>
+
+<div class="timefisthomebox2">
+
+<% for space in @spaces %>
+    <% if space.timefist_spaces == "10" %>
+      <p></p>
+    <% else %>
+    <a href=/heavybucketgames/games/timefist/shortlist>View Accepted Testers</a>
+    <% end %>
+    <% break %>
+<% end %>
+</div>
+
+<div class="statusback">
+
+<a href="/heavybucketgames/games">Back></a>
+
+</div>
+
+</div>
+
+</body>

@@ -1,0 +1,98 @@
+<body>
+
+
+
+<div class="jumperhome">
+
+
+
+<div class="jumpertitle"> <h1>Jumper</h1> </div>
+
+<div class="allpngs">
+
+<div class="jumper1.1">
+<img src="/images/jumper1.1.png" width="400px" height="400px" alt="">
+</div>
+
+<div class="jumper1.2">
+<img src="/images/jumper1.2.png" width="400px" height="400px" alt="">
+</div>
+
+<div class="jumper1.3">
+<img src="/images/jumper1.3.png" width="400px" height="400px" alt="">
+</div>
+
+</div>
+
+<div class="jumperis">
+<p>Jumper is the story of a lonely inventor in a rainy town
+  and the little robot who builds a circus to cheer him up.
+  </p>
+</div>
+
+<div class="builtfor">
+<p>Built for iOS and Android platforms, this digital children’s
+ book features beautiful illustrations, music, narration.</p>
+</div>
+
+<div class="allpngs2">
+
+<div class="jumper1.4">
+<img src="/images/jumper1.4.png" width="400px" height="400px" alt="">
+</div>
+
+<div class="jumper1.5">
+<img src="/images/jumper1.5.png" width="400px" height="400px" alt="">
+</div>
+
+<div class="jumper1.6">
+<img src="/images/jumper1.6.png" width="400px" height="400px" alt="">
+</div>
+
+</div>
+
+<div class="supportfor">
+<p>Support for multiple languages.</p>
+</div>
+
+
+<div class="thisgame">
+<p>This game is due for release next year</p>
+</div>
+
+<div class="jumperhomebox1">
+
+<% for space in @spaces %>
+    <% if space.jumper_spaces == "0" %>
+      <p>sorry no spaces left</p>
+    <% else %>
+    <a href=/heavybucketgames/games/jumper/form>Apply for beta testing</a>
+    <% break %>
+    <% end %>
+<% end %>
+
+</div>
+
+<div class="jumperhomebox2">
+
+<% for space in @spaces %>
+    <% if space.jumper_spaces == "10" %>
+      <p></p>
+    <% else %>
+    <a href=/heavybucketgames/games/jumper/shortlist>View Accepted Testers</a>
+    <% end %>
+    <% break %>
+<% end %>
+
+<div class="statusback">
+
+<a href="/heavybucketgames/games">Back></a>
+
+</div>
+
+</div>
+
+
+</div>
+
+</body>
