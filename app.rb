@@ -23,8 +23,8 @@ Game.delete_all()
 
 
 @space = Space.new({
-          "jumper_spaces" => 10,
-          "timefist_spaces" => 10
+          "jumper_spaces" => 3,
+          "timefist_spaces" => 3
   })
 @space.save
 
