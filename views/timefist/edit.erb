@@ -7,6 +7,7 @@
   name="name"
   id="name-field"
   value="<%= @customer.name %>"
+  required><text>
   />
 
   <label for="email-field">Email:</label>
@@ -15,8 +16,8 @@
   name="email"
   id="email-field"
   autocomplete="off"
-  required><text>
   value="<%= @customer.email %>"
+  required><text>
   />
   <input type='submit' value="Edit Order">
 </form>

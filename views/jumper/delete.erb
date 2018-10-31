@@ -1,12 +1,17 @@
 <div class="delete">
 
 <% result = 0 %>
-<% counter = 0 %>
+<% bool = false %>
      <% for interest in @interests %>
      <% if interest.customer_id == @id_input.id_input.to_i %>
      <%  result = @id_input.id_input %>
+     <%  bool = true %>
 
-     <p><a href="/heavybucketgames/jumper/<%= interest.customer_id %>/edit">Edit Order</a></p>
+     <div class="editorder2">
+
+     <p><a href="/heavybucketgames/jumper/<%= interest.customer_id %>/edit"><font color="white">Edit Order</font></a></p>
+
+     </div>
 
      <form method="post" action="/heavybucketgames/jumper/<%= result %>/delete">
        <div class="delete">
@@ -20,7 +25,8 @@
      <% end %>
   <% end %>
 
-<% if counter == 1 %>
+<% if bool == false %>
 <a href="/heavybucketgames/games/jumper/shortlist">Back></a>
+<p>Try again</p>
 <% end %>
 </div>
