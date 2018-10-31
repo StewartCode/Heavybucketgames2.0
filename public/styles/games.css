@@ -1,4 +1,9 @@
 
+.editbutton {
+
+  color : white;
+}
+
 .timefist_index {
   color: white;
   margin-left: auto;
@@ -49,4 +54,17 @@
 
 .viewacceptedtesters {
   text-align: center;
+}
+
+.divider {
+  visibility: hidden;
+}
+
+.drunkguy {
+  margin-top: -150px;
+}
+
+.editform {
+text-align: center;
+color : white;
 }

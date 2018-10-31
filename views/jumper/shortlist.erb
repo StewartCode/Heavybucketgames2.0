@@ -8,6 +8,8 @@
       <% if c.title == "jumper" %>
   <p> Name : <%= customer.name %> </p>
   <p> Game : <%= c.title%> </p>
+  <p> ID : <%= customer.id %> </p>
+
 
   <form method="post" action="jumper/pass">
 
@@ -21,11 +23,8 @@
     />
     <input type="submit" value="send">
   </form>
-  <% break %>
-  <% else next %>
   <% end %>
 
-  <p> ID : <%= customer.id %> </p>
 
   <p>_____________________________________</p>
 

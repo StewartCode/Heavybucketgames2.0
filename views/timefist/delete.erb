@@ -2,28 +2,26 @@
 
 
 <% result = 0 %>
+<% counter = 0 %>
      <% for interest in @interests %>
-     <% if interest.customer_id == @id_input.id_input.to_i %>
-     <%  result = @id_input.id_input %>
+        <% if interest.customer_id == @id_input.id_input.to_i %>
+        <%  result = @id_input.id_input %>
 
-     <form method="post" action="/heavybucketgames/timefist/<%= result %>/delete">
-       <div class="delete">
-       <input type="submit" value="Delete Order"/>
-     </form>
+<div class="editbutton"><p><a href="/heavybucketgames/timefist/<%= interest.customer_id %>/edit">Edit Order</a></p> </div>
 
-<h1> <%= result %></h1>
-      <% break %>
-       <% elsif result = "Please try again" %>
-       <%= result %>
-       <a href="/heavybucketgames/games/timefist/shortlist">Back></a>
-        <% break %>
-        <% else result = "" %>
-        <a href="/heavybucketgames/games/timefist/shortlist">Back></a>
-         <% break %>
+        <form method="post" action="/heavybucketgames/timefist/<%= result %>/delete">
+        <div class="delete">
+        <input type="submit" value="Delete Order"/>
+        </form>
 
+        <h1> <%= result %></h1>
 
-
+        <% else %>
+        <% counter = 1 %>
+        <% end %>
      <% end %>
-<% end %>
 
+<% if counter == 1 %>
+   <a href="/heavybucketgames/games/timefist/shortlist">Back></a>
+ <% end %>
 </div>

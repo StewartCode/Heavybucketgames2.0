@@ -3,13 +3,16 @@
 <h1>
 
   <h1>List of Customers</h1>
-  <% for customer in @customers %>
-  <p> <% c = customer.games()[0] %> </p>
+    <% for customer in @customers %>
+    <p> <% c = customer.games()[0] %> </p>
       <% if c.title == "time fist" %>
-  <p> Name : <%= customer.name %> </p>
-  <p> Game : <%= c.title%> </p>
+    <p> Name : <%= customer.name %> </p>
+    <p> Game : <%= c.title%> </p>
+    <p> ID : <%= customer.id %> </p>
 
-  <form method="post" action="timefist/pass">
+
+
+    <form method="post" action="timefist/pass">
 
     <label for="id_input-field">Enter ID to Delete:</label>
     <input
@@ -20,16 +23,14 @@
     required><number>
     />
     <input type="submit" value="send">
-  </form>
+    </form>
 
-  <% else break %>
+
   <% end %>
 
-  <p> ID : <%= customer.id %> </p>
 
   <p>_____________________________________</p>
-
-  <% end %>
+<% end %>
 
  </h1>
 

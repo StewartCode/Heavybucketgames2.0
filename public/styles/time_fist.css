@@ -8,18 +8,6 @@
   padding-top: 50px;
 }
 
-.statusinvisible {
-  color : white;
-  text-align: center;
-  margin: 0 auto;
-  font-size: 23px;
-  padding-right: 50px;
-  padding-left: 50px;
-  padding-top: 50px;
-  visibility: hidden;
-
-}
-
 .delete {
   color : white;
   text-align: center;
@@ -42,75 +30,74 @@
 
 .timefisthomebox1 {
 
+color: blue;
 padding: 50px;
+font-size: 40px;
+font-style: italic;
 
 }
 
 .timefisthomebox2 {
-
+  color: blue;
   padding: 50px;
-}
-/* body {
-  background: black url('/images/background.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  color: papayawhip;
-  font-family: 'Merriweather', serif;
-  padding: 0px;
-  margin: 0px;
+  font-size: 40px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Special Elite', cursive;
-  margin: 0px;
-  padding: 0px;
-}
-
-h1 {
-  font-size: 1.8em;
-  color: darkred;
-  margin-bottom: 20px;
-}
-
-a, a:link, a:visited {
-  color: #a2937e;
-  text-decoration: none;
-}
-
-a:hover, a:active, a:focus {
-  color: #c6e2ff;
-}
-
-nav {
-  padding: 0px;
-  margin: 0px;
-  padding-right: 25px;
-}
-
-nav ul li {
-  margin-bottom: 15px;
-  text-transform: uppercase;
-}
-
-ul {
-  padding: 0px;
-  margin: 0px;
-  list-style-type: none;
-}
-
-main {
-  padding: 25px;
-}
-
-.flex {
+.allpngs3 {
   display: flex;
-}
-
-.flex--row {
   flex-direction: row;
+  text-align: center;
+  padding: 50px;
+  padding-left: 120px;
+  margin-left: -40px;
+
+
+
+
 }
 
-#content {
-  border-left: 1px solid darkred;
-  padding-left: 25px;
-} */
+.timefist1.1 {
+  color: white;
+  flex: 1;
+  padding: 30px;
+  text-align: center
+
+}
+
+.timefist1.2 {
+  color: white;
+  flex: 1;
+  padding: 30px;
+  text-align: center;
+}
+
+.allpngs4 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 50px;
+  flex-direction: row;
+  margin-left: 25px;
+
+}
+
+.timefist1.3 {
+  color: white;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  padding: 10px;
+
+}
+
+.timefist1.4 {
+  color: white;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.nedleft  {
+  margin-top: -50px;
+  margin-left: 50px
+}

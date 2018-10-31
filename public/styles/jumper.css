@@ -21,7 +21,7 @@
 .jumperhome {
   color : white;
   text-align: center;
-  
+
 }
 
 .jumpertitle {
@@ -34,14 +34,16 @@
 }
 
 .jumperhomebox1 {
-font-size: 23px;
+font-size: 40px;
+font-style: italic;
 padding: 50px;
-
+color: blue;
 }
 
 .jumperhomebox2 {
 font-size: 23px;
   padding: 50px;
+  color: blue;
 }
 
 .allpngs {
@@ -49,7 +51,9 @@ font-size: 23px;
   flex-direction: row;
   text-align: center;
   padding: 50px;
-  padding-left: 120px;
+  padding-left: 40px;
+
+
 
 }
 
@@ -57,7 +61,7 @@ font-size: 23px;
   color: white;
   flex: 1;
   padding: 30px;
-  text-align: center;
+  text-align: center
 }
 
 .jumper1.2 {
@@ -74,7 +78,7 @@ font-size: 23px;
 
   padding: 50px;
   flex-direction: row;
-  padding-left: 120px;
+  padding-left: 40px;
 
 }
 
@@ -95,21 +99,31 @@ font-size: 23px;
 }
 
 .jumperis {
+  color: white;
   text-align: center;
   font-size: 23px;
 }
 
 .builtfor {
+  color: white;
   text-align: center;
   font-size: 23px;
 }
 
 .supportfor {
+  color: white;
   text-align: center;
   font-size: 23px;
 }
 
 .thisgame {
+  color: white;
   text-align: center;
   font-size: 23px;
+}
+
+.nedright  {
+  margin-top: -50px;
+  text-align: right;
+  margin-right: 50px;
 }

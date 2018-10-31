@@ -36,6 +36,16 @@ get '/heavybucketgames/games/jumper/shortlist' do
   erb ( :"jumper/shortlist" )
 end
 
+get "/heavybucketgames/jumper/:id/edit" do # edit
+  @customer = Customer.find( params[:id] )
+  erb( :"jumper/edit" )
+end
+
+post "/heavybucketgames/jumper/:id" do # update
+  Customer.new( params ).update
+  redirect to '/'
+end
+
 post "/heavybucketgames/games/jumper" do
    @customer = Customer.new(params)
    @customer.save()

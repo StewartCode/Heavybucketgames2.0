@@ -71,7 +71,11 @@ Space.delete_all()
 # space.jumper_spaces += 1
 # space.update
 
-
-
+# input1 = Id_input.new({
+#           "id_input" => 20
+#   })
+# input1.save
+#
+#
 # binding.pry
 # nil

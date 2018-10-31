@@ -1,28 +1,26 @@
 <div class="delete">
 
 <% result = 0 %>
+<% counter = 0 %>
      <% for interest in @interests %>
      <% if interest.customer_id == @id_input.id_input.to_i %>
      <%  result = @id_input.id_input %>
+
+     <p><a href="/heavybucketgames/jumper/<%= interest.customer_id %>/edit">Edit Order</a></p>
 
      <form method="post" action="/heavybucketgames/jumper/<%= result %>/delete">
        <div class="delete">
        <input type="submit" value="Delete Order"/>
      </form>
 
-<h1> <%= result %></h1>
-      <% break %>
-       <% elsif result = "Please try again" %>
-       <%= result %>
-       <a href="/heavybucketgames/games/jumper/shortlist">Back></a>
-        <% break %>
-        <% else result = "" %>
-        <a href="/heavybucketgames/games/jumper/shortlist">Back></a>
-         <% break %>
+     <h1> <%= result %></h1>
 
-
-
+     <% else %>
+     <% counter = 1 %>
      <% end %>
-<% end %>
+  <% end %>
 
+<% if counter == 1 %>
+<a href="/heavybucketgames/games/jumper/shortlist">Back></a>
+<% end %>
 </div>
